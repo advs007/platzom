@@ -1,0 +1,31 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor Platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    //"test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advs007/platzom.git"
+  },
+  "keywords": [
+    "platzi",
+    "platzom",
+    "js"
+  ],
+  "author": "Alberto Veiga <advs.sistemas@gmail.com> (https://www.facebook.com/alberto.veiga.9)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/advs007/platzom/issues"
+  },
+  "homepage": "https://github.com/advs007/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
